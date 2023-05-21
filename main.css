@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #e3bfbf;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 640px;
+    width: 100%;
+    margin: 200px auto;
+}
+
+.container h1 {
+    margin-bottom: 40px;
+    font-size: 40px;
+    color: #a04040;
+}
+
+form {
+    display: flex;
+    max-width: 550px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+form input {
+    font-size: 15px;
+    background-color: #fff;
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 8px;
+}
+
+form button {
+    background-color: rgb(1, 179, 1);
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    text-align: center;
+    padding: 8px;
+}
+
+.box {
+    border-radius: 18px;
+    background: #e3bfbf;
+    box-shadow:  10px 10px 12px #c5a6a6,
+                -10px -10px 12px #ffd8d8;
+    padding: 12px; /* Adiciona um espaçamento interno à caixa */
+    width: 100%; /* Define a largura da caixa */
+    margin: auto auto; /* Centraliza a caixa horizontalmente */
+}
+
+table {
+    width: 100%;
+}
+
+table th {
+    border-bottom: 2px solid black;
+    padding: 10px 4px;
+    font-size: 22px;
+    color: #a04040;
+}
+
+table td {
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 2px solid rgb(0,0, 0, 0.2);
+}
